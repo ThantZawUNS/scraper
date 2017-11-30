@@ -7,7 +7,7 @@ class Imyanmarhouse < ActiveRecord::Base
   def self.imyanmarhouse_data_for_sale
     # begin
     #   ActiveRecord::Base.transaction do
-        (13..1602).each do |i|
+        (78..1602).each do |i|
           puts ''
           puts '################################### Page-'+i.to_s+'########################################'
           puts ''
